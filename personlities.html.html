@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="navbar position-fixed" style="width: 100%;">
+        <a href="index.html"><img src="images/logo3..png" /></a>
+        <div class="nav-link" id="navLink ">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="personlities.html.html">PERSONILITY</a></li>
+            <li><a href="cities.html.html">CITIES</a></li>
+            <li><a href="tourist spot.html.html">TOURIST SPOT</a></li>
+            <li><a href="Contact.html.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>FAVOURITE PERSONILITIES</h1>
+    </section>
+    <!-- ABOUT PERSONLITIES -->
+    <!-- ABOUT PERSONLITIES -->
+    <section class="about-personilities">
+      <div class="row">
+        <div class="about-col">
+          <h1>Imran Khan</h1>
+          <p>
+            Imran Khan is a man of great passion and determination. He is a true
+            inspiration to many for his unwavering commitment to his beliefs and
+            principles. Whether it is on the cricket field or in the political
+            arena, he has always shown a fierce dedication to his goals. Imran's
+            unwavering spirit and resilience in the face of adversity make him a
+            hero to many. His relentless pursuit of justice and equality has
+            earned him the respect of people from all walks of life. Imran
+            Khan's presence in this world is a reminder that with hard work and
+            determination, anything is possible.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="images/khan.jpg" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-col">
+          <h1>MM Alam</h1>
+          <p>
+            MM Alam was a celebrated fighter pilot and a national hero of
+            Pakistan. He gained fame during the Indo-Pakistani War of 1965 when
+            he shot down five Indian fighter jets in less than a minute, an
+            unprecedented feat in the history of air warfare. Alam's
+            extraordinary courage, quick thinking, and exceptional flying skills
+            made him a legendary figure among his colleagues and an inspiration
+            to future generations of pilots. He received numerous awards and
+            honours for his service to the country, including the
+            Sitara-e-Jurat, Pakistan's third-highest military award. Even after
+            his retirement, Alam continued to inspire young pilots and remained
+            a symbol of national pride and excellence. His contributions to the
+            defence of Pakistan will always be remembered with great respect and
+            admiration.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="images/mm alam.jpg" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-col">
+          <h1>Mahira Khan</h1>
+          <p>
+            Mahira Khan is a Pakistani actress and model who has achieved
+            international recognition for her talent and beauty. She rose to
+            fame with her lead role in the popular Pakistani television drama
+            "Humsafar" and later made her Bollywood debut in the film "Raees"
+            alongside Shah Rukh Khan. Mahira is known for her powerful
+            performances and charming personality, which have earned her a large
+            fan following in Pakistan and around the world. She is also a
+            prominent advocate for women's rights and social issues, using her
+            platform to raise awareness about important causes. Mahira is widely
+            regarded as one of the most influential and successful actresses in
+            Pakistan's entertainment industry.
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="images/mahria.jpg">
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+        aspernatur molestiae aliquid. Quia similique atque possimus fuga commodi
+        ratione perferendis.<br />
+        Exercitationem illum molestiae laborum quod consequatur? Reprehenderit
+        perferendis molestias tempora?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <p>Made with<i class="fa fa-heart-o"></i>by sajal</p>
+      </div>
+    </section>
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+      var navLink = document.getElementById("navLink");
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous" 
+    ></script>
+  </body>
+</html>
